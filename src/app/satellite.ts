@@ -1,3 +1,4 @@
+
 export class Satellite {
     name: string;
     orbitType: string;
@@ -10,7 +11,7 @@ export class Satellite {
         this.type =  type;
         this.launchDate = launchDate;
         this.orbitType = orbitType
-        this.operational = false;
+        this.operational = operational;
     };
     shouldShowWarning(){
         let satType = this.type.toUpperCase()
